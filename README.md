@@ -10,7 +10,7 @@
 - Caso você encontrar um bug [Click-aqui](https://github.com/AdrielFreud/classroom/issues/new) crie um issue para eu corrigi-lo.
 
 # Imagem
-![photo](https://i.imgur.com/m45IwXT.png)
+![photo](https://i.imgur.com/)
 
 # Características
   - Extração de Links.
