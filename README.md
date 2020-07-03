@@ -20,7 +20,7 @@
 Baixe diretamente do github com:
  - git clone https://github.com/AdrielFreud/classroom.git
  - Pasta ZIP https://github.com/AdrielFreud/classroom/archive/master.zip
- - Exe: 
+ - Exe: https://mega.nz/file/2F8iCQDT#nYPOmtFYGmZ7DReBU_U6NLE8TCCZXfUv-WsbGVJ_bVQ
 
 # Uso
  - py classroom.py
