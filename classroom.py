@@ -1,7 +1,7 @@
 '''
 Adriel Fernando
 
-last update at 02/07/20 | 20:51 PM
+last update at 26/10/20 | 12:52 PM
 
 '''
 
@@ -42,14 +42,14 @@ pesquisas = []
 while True:
 	sleep(0.2)
 	texto = clipboard.paste()
-	if texto:
+	if ("http" not in texto):
 		print("----\nPergunta: {}".format(texto))
 		clipboard.copy("")
-	try:
-		texto = texto.split('\n')[0]
-		if(texto not in pesquisas):
-			main(texto)
-		pesquisas.append(texto)
-	except:
-		pass
-		#print("Texto sem formato!")
+		try:
+			texto = texto.split('\n')[0]
+			if(texto not in pesquisas):
+				main(texto)
+			pesquisas.append(texto)
+		except:
+			pass
+			#print("Texto sem formato!")
