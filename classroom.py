@@ -42,7 +42,7 @@ pesquisas = []
 while True:
 	sleep(0.2)
 	texto = clipboard.paste()
-	if ("http" not in texto):
+	if texto:
 		print("----\nPergunta: {}".format(texto))
 		clipboard.copy("")
 		try:
